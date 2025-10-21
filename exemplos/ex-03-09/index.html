@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questão 1</title>
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <h1>Sistema de Locação de veiculo</h1>
+
+    <form>
+
+        <label>
+            <span>Veiculo: </span>
+            <input type="text" name="input-veiculo" id="input-veiculo">
+        </label>
+        <label>
+            <span>Diária: </span>
+            <input type="number" step="0.01" name="input-diaria" id="input-diaria">
+        </label>
+        <label>
+            <span>Valor Fixo: </span>
+            <input type="number" step="0.01" name="input-valorFixo" id="input-fixo" required>
+        </label>
+        <label>
+            <span>Quantidade de Dias: </span>
+            <input type="number" name="input-qtdDias" id="input-dias">
+        </label>
+
+        <button type="submit" id="btn-calcular">Calcular</button>
+    </form>
+
+
+<div id="resultado"> </div>
+
+</body>
+</html>
